@@ -17,7 +17,22 @@ body{
     width: 400px;
     height: 300px;
     border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
     text-align: center;
     padding-top: 30px;
     background-color: grey;
+}
+
+.box{
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    align-content: center;
+    background-color: aqua;
+}
+
+#head{
+    font-size: 30px;
+    font-weight: 600;
 }
