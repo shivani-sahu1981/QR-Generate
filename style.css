@@ -15,21 +15,23 @@ body{
 
 .container{
     width: 400px;
-    height: 300px;
+    height: 350px;
     border-radius: 10px;
     padding-left: 50px;
     padding-top: 50px;
     text-align: center;
     padding-top: 30px;
     background-color: grey;
+    box-shadow: 0 0 20px white;
 }
 
 .box{
     width: 300px;
-    height: 240px;
+    height: 300px;
     border-radius: 10px;
     align-content: center;
-    background-color: aqua;
+    background-color: rgb(95, 105, 102);
+    box-shadow: 0 0 20px white;
 }
 
 #head{
@@ -40,7 +42,7 @@ body{
 
 #inputtext{
     width: 180px;
-    height: 25px;
+    height: 30px;
     text-align: center;
     border-radius: 20px;
     border: 3px solid grey;
@@ -49,4 +51,24 @@ body{
 input::placeholder{
     color: black;
     font-weight: 550;
+}
+
+#QR{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    border: 3px solid grey;
+    outline: none;
+}
+
+#QR:hover{
+    background-color:grey ;
+    color: white;
+    font-weight: 600;
+}
+
+
+.image-container{
+    padding: 10px;
 }
